@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>huminoid_bringup</name>
+  <version>0.0.1</version>
+  <description>Launch files for bringing up the complete Huminoid system</description>
+  <maintainer email="info@huminiod-robotics.org">Huminoid Robotics</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>huminoid_description</exec_depend>
+  <exec_depend>huminoid_ai</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros_pkgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

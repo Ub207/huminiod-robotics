@@ -1,0 +1,9 @@
+﻿{
+  ""modulesPath"": ""docs/modules"",
+  ""templatesPath"": ""spec-kit/templates"",
+  ""ci"": {
+    ""validateMd"": true,
+    ""checkLinks"": true
+  },
+  ""activeModules"": [""module1-ros2.md"", ""module2-digital-twin.md""]
+}
