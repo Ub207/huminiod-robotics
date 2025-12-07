@@ -19,14 +19,6 @@
         "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITHUB_TOKEN_HERE>"
       }
     },
-    "postgres": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-postgres",
-        "postgresql://localhost/robotics_db"
-      ]
-    },
     "brave-search": {
       "command": "npx",
       "args": [
@@ -44,13 +36,6 @@
         "@modelcontextprotocol/server-memory"
       ]
     },
-    "fetch": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-fetch"
-      ]
-    },
     "puppeteer": {
       "command": "npx",
       "args": [
@@ -63,15 +48,6 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-sequential-thinking"
-      ]
-    },
-    "sqlite": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-sqlite",
-        "--db-path",
-        "d:\\huminiod-robotics\\db\\robotics.db"
       ]
     }
   }
